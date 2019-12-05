@@ -1,0 +1,22 @@
+{
+  "name": "jwt-koa",
+  "version": "1.0.0",
+  "description": "A koa application using jwt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yanfei.Qiao",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "bcrypt-nodejs": "0.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.3",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "sqlite3": "^4.1.1"
+  }
+}
